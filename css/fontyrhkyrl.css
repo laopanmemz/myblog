@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fontyrhkyrl";
+  src: url("fontyrhkyrl.woff2") format("woff2"),
+       url("fontyrhkyrl.woff") format("woff"),
+       url("fontyrhkyrl.ttf") format("truetype"),
+       url("fontyrhkyrl.eot") format("embedded-opentype"),
+       url("fontyrhkyrl.svg") format("svg"),
+       url("fontyrhkyrl.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
