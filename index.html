@@ -526,7 +526,7 @@
 <div class="video-player">
     
     <div class="title center-align">
-        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;精彩视频
+        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;最新视频
     </div>
     
     <div class="row">
@@ -542,14 +542,14 @@
     $(function () {
         new DPlayer({
             container: document.getElementById('dplayer'),
-            autoplay: 'false' === 'true',
+            autoplay: 'true' === 'true',
             theme: '#42b983',
-            loop: 'false' === 'true',
+            loop: 'true' === 'true',
             lang: 'zh-cn' === 'zh-CN' ? 'zh-cn' : 'en',
             preload: 'auto',
             volume: Number('0.7'),
             video: {
-                url: '/player.bilibili.com/player.html?aid=798914864&bvid=BV1yy4y117fN&cid=290536454&page=1',
+                url: 'http://player.bilibili.com/player.html?aid=798914864&bvid=BV1yy4y117fN&cid=290536454&page=1',
                 pic: '',
                 thumbnails: ''
             }
