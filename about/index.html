@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="About, 老潘老亮memz的个人小屋">
+    <meta name="keywords" content="关于, 老潘老亮memz的个人小屋">
     <meta name="description" content="老潘老亮memz的个人小屋">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,8 +16,8 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>About | 老潘老亮memz的个人小屋</title>
-    <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@favicon.png">
+    <title>关于 | 老潘老亮memz的个人小屋</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
@@ -42,7 +42,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">老潘老亮memz的个人小屋</span>
                 </a>
@@ -120,7 +120,7 @@
   
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
     </a>
   </li>
 </ul>
@@ -130,7 +130,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">老潘老亮memz的个人小屋</div>
         <div class="logo-desc">
@@ -355,7 +355,7 @@
                         
 <div class="statis">
     <span class="count"><a href="/">3</a></span>
-    <span class="name">Posts</span>
+    <span class="name">文章</span>
 </div>
 
 
@@ -364,7 +364,7 @@
 
 <div class="statis">
     <span class="count"><a href="/tags">2</a></span>
-    <span class="name">Tags</span>
+    <span class="name">标签</span>
 </div>
 
 
@@ -372,7 +372,7 @@
                     <div class="col s12 m12 l4">
                         <div class="profile center-align">
                             <div class="avatar">
-                                <img src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/avatar.jpg" alt="老潘老亮memz"
+                                <img src="/medias/avatar.jpg" alt="老潘老亮memz"
                                      class="circle responsive-img avatar-img">
                             </div>
                             <div class="author">
@@ -380,7 +380,7 @@
                                     
 <div class="statis">
     <span class="count"><a href="/">3</a></span>
-    <span class="name">Posts</span>
+    <span class="name">文章</span>
 </div>
 
 
@@ -389,7 +389,7 @@
 
 <div class="statis">
     <span class="count"><a href="/tags">2</a></span>
-    <span class="name">Tags</span>
+    <span class="name">标签</span>
 </div>
 
 
@@ -486,7 +486,7 @@
 
 <div id="postCharts" class="post-charts">
     <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-bar-chart"></i>&nbsp;&nbsp;Post Charts
+        <i class="far fa-bar-chart"></i>&nbsp;&nbsp;文章统计图
     </div>
     <div class="row">
         <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
@@ -513,7 +513,7 @@
 
     let postsOption = {
         title: {
-            text: 'Post Publish Chart',
+            text: '文章发布统计图',
             top: -5,
             x: 'center'
         },
@@ -529,7 +529,7 @@
         },
         series: [
             {
-                name: 'Number of posts',
+                name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
                 data: [0,0,0,0,0,0,0,0,0,0,0,3,0],
@@ -539,17 +539,17 @@
                     data: [{
                         type: 'max',
                         itemStyle: {color: ['#3ecf8e']},
-                        name: 'Maximum'
+                        name: '最大值'
                     }, {
                         type: 'min',
                         itemStyle: {color: ['#fa755a']},
-                        name: 'Minimum'
+                        name: '最小值'
                     }]
                 },
                 markLine: {
                     itemStyle: {color: ['#ab47bc']},
                     data: [
-                        {type: 'average', name: 'Average'}
+                        {type: 'average', name: '平均值'}
                     ]
                 }
             }
@@ -560,7 +560,7 @@
 
     let categoriesOption = {
         title: {
-            text: 'Categories Chart',
+            text: '文章分类统计图',
             top: -4,
             x: 'center'
         },
@@ -570,7 +570,7 @@
         },
         series: [
             {
-                name: 'Categories',
+                name: '分类',
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
@@ -590,7 +590,7 @@
 
     let tagsOption = {
         title: {
-            text: 'TOP10 Tags Chart',
+            text: 'TOP10 标签统计图',
             top: -5,
             x: 'center'
         },
@@ -617,17 +617,17 @@
                     data: [{
                         type: 'max',
                         itemStyle: {color: ['#3ecf8e']},
-                        name: 'Maximum'
+                        name: '最大值'
                     }, {
                         type: 'min',
                         itemStyle: {color: ['#fa755a']},
-                        name: 'Minimum'
+                        name: '最小值'
                     }],
                 },
                 markLine: {
                     itemStyle: {color: ['#ab47bc']},
                     data: [
-                        {type: 'average', name: 'Average'}
+                        {type: 'average', name: '平均值'}
                     ]
                 }
             }
@@ -645,7 +645,7 @@
                 
 <div class="my-projects">
     <div class="title center-align" data-aos="zoom-in-up">
-        <i class="fas fa-gift"></i>&nbsp;&nbsp;My Projects
+        <i class="fas fa-gift"></i>&nbsp;&nbsp;我的项目
     </div>
     <div class="row">
         
@@ -699,7 +699,7 @@
                 
 <div class="my-skills">
     <div class="title center-align" data-aos="zoom-in-up">
-        <i class="fas fa-wrench"></i>&nbsp;&nbsp;My Skills
+        <i class="fas fa-wrench"></i>&nbsp;&nbsp;我的技能
     </div>
     <div class="row">
         
@@ -777,7 +777,7 @@
 
     
     <div class="other-skills chip-container" data-aos="zoom-in-up">
-        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;Other Skills</div>
+        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
             
             
@@ -804,26 +804,26 @@
                 
 <div id="myGallery" class="my-gallery">
     <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-image"></i>&nbsp;&nbsp;Gallery
+        <i class="far fa-image"></i>&nbsp;&nbsp;相册
     </div>
     <div class="row">
         
         
         <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/featureimages/0.jpg">
-                <img src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/featureimages/0.jpg" class="responsive-img">
+            <div class="img-item" data-src="/medias/featureimages/0.jpg">
+                <img src="/medias/featureimages/0.jpg" class="responsive-img">
             </div>
         </div>
         
         <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/featureimages/1.jpg">
-                <img src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/featureimages/1.jpg" class="responsive-img">
+            <div class="img-item" data-src="/medias/featureimages/1.jpg">
+                <img src="/medias/featureimages/1.jpg" class="responsive-img">
             </div>
         </div>
         
         <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/featureimages/2.jpg">
-                <img src="https://cdn.jsdelivr.net/gh/laopanmemz/laopanmemz.github.io@/medias/featureimages/2.jpg" class="responsive-img">
+            <div class="img-item" data-src="/medias/featureimages/2.jpg">
+                <img src="/medias/featureimages/2.jpg" class="responsive-img">
             </div>
         </div>
         
@@ -1033,8 +1033,8 @@
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
                    class="search-input">
         </div>
         <div id="searchResult"></div>
