@@ -3,11 +3,11 @@
   <title>老潘老亮memz的个人小屋</title>
   
   <subtitle>欢迎来到老潘老亮memz的个人小屋</subtitle>
-  <link href="https://laopanmemz.github.io/atom.xml" rel="self"/>
+  <link href="https://laomemz.tk/atom.xml" rel="self"/>
   
-  <link href="https://laopanmemz.github.io/"/>
+  <link href="https://laomemz.tk/"/>
   <updated>2021-03-07T06:38:07.199Z</updated>
-  <id>https://laopanmemz.github.io/</id>
+  <id>https://laomemz.tk/</id>
   
   <author>
     <name>老潘老亮memz</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>视频更新列表</title>
-    <link href="https://laopanmemz.github.io/16/%E8%A7%86%E9%A2%91%E6%9B%B4%E6%96%B0%E5%88%97%E8%A1%A8/"/>
-    <id>https://laopanmemz.github.io/16/%E8%A7%86%E9%A2%91%E6%9B%B4%E6%96%B0%E5%88%97%E8%A1%A8/</id>
+    <link href="https://laomemz.tk/blog/16/"/>
+    <id>https://laomemz.tk/blog/16/</id>
     <published>2021-02-16T09:37:10.000Z</published>
     <updated>2021-03-07T06:38:07.199Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="B站系列" scheme="https://laopanmemz.github.io/tags/B%E7%AB%99%E7%B3%BB%E5%88%97/"/>
+    <category term="B站系列" scheme="https://laomemz.tk/tags/B%E7%AB%99%E7%B3%BB%E5%88%97/"/>
     
   </entry>
   
   <entry>
     <title>B站链接</title>
-    <link href="https://laopanmemz.github.io/15/B%E7%AB%99%E9%93%BE%E6%8E%A5/"/>
-    <id>https://laopanmemz.github.io/15/B%E7%AB%99%E9%93%BE%E6%8E%A5/</id>
+    <link href="https://laomemz.tk/blog/15/"/>
+    <id>https://laomemz.tk/blog/15/</id>
     <published>2021-02-15T11:26:56.000Z</published>
     <updated>2021-03-07T06:38:10.542Z</updated>
     
@@ -56,14 +56,14 @@
     
     
     
-    <category term="杂七杂八" scheme="https://laopanmemz.github.io/tags/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    <category term="杂七杂八" scheme="https://laomemz.tk/tags/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
     
   </entry>
   
   <entry>
     <title>我的第一个文档</title>
-    <link href="https://laopanmemz.github.io/15/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E6%A1%A3/"/>
-    <id>https://laopanmemz.github.io/15/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E6%A1%A3/</id>
+    <link href="https://laomemz.tk/blog/15/"/>
+    <id>https://laomemz.tk/blog/15/</id>
     <published>2021-02-15T11:04:08.000Z</published>
     <updated>2021-02-15T11:27:42.396Z</updated>
     
@@ -78,7 +78,7 @@
     
     
     
-    <category term="杂七杂八" scheme="https://laopanmemz.github.io/tags/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    <category term="杂七杂八" scheme="https://laomemz.tk/tags/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
     
   </entry>
   
