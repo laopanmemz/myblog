@@ -1,1 +1,8 @@
-/* Here is your custom css styles. */
+@font-face{
+    font-family: '一人花开一人落';
+    src: url('../diy-font/fontyrhkyrl.ttf');   
+}
+
+body {
+    font-family: '一人花开一人落';
+}
